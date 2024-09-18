@@ -3,8 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Calculator | Projects</title>
-        <!--link calculator.js-->
-        <scrip src="calculator.js"></scrip>
     </head>
  
     <body>
@@ -33,8 +31,9 @@
                 <label for="first-num">First Number:</label>
                 <input type="number" id="first-num">
                 <label for="second-num">Second Number</label>
-                <input type="number" id="sec-num">
+                <input type="number" id="second-num">
             </div>
+
             <div class="calc-buttons">
                 <button onclick="addition()">+</button>
                 <button onclick="subtract()">-</button>
@@ -43,13 +42,16 @@
                 <button onclick="power()">**</button>
                 <button onclick="clearC()">clear</button>
             </div>
-            <div class="calc-output">
+
+            <!--<div class="calc-output">-->
                 <h3 id="output"></h3>
-            </div>
+            <!--</div>-->
 
         </main>
         <footer>
             <p>All rights reserved by Gweneth Stewart <a href="">Credits</a>&#169</p>
         </footer>
+        <!--link calculator.js-->
+        <script src="calculator.js"></script>
     </body>
 </html>
