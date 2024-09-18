@@ -9,7 +9,8 @@ function addition() {
     let secondnum = document.getElementById("second-num").value;
     let result = Number(firstnum) + Number(secondnum);
 
-    document.getElementById("output").innerHTML= result;
+    checkNegative(result);
+    //document.getElementById("output").innerHTML= result;
 }
 
 function subtraction() {
@@ -18,7 +19,8 @@ function subtraction() {
     let secondnum = document.getElementById("second-num").value;
     let result = Number(firstnum) - Number(secondnum);
 
-    document.getElementById("output").innerHTML= result;
+    checkNegative(result);
+    //document.getElementById("output").innerHTML= result;
 }
 
 function divide() {
@@ -27,7 +29,8 @@ function divide() {
     let secondnum = document.getElementById("second-num").value;
     let result = Number(firstnum) / Number(secondnum);
 
-    document.getElementById("output").innerHTML= result;
+    checkNegative(result);
+    //document.getElementById("output").innerHTML= result;
 }
 
 function multiply() {
@@ -36,7 +39,8 @@ function multiply() {
     let secondnum = document.getElementById("second-num").value;
     let result = Number(firstnum) * Number(secondnum);
 
-    document.getElementById("output").innerHTML= result;
+    checkNegative(result);
+    //document.getElementById("output").innerHTML= result;
 }
 
 function power() {
@@ -56,4 +60,16 @@ function clearC() {
     document.getElementById("first-num").value = '';
     document.getElementById("second-num").value = '';
     document.getElementById("output").innerHTML = '';
+}
+
+function checkNegative(num) {
+    //checks if number is negative and changes output to red
+    let output = document.getElementById("output");
+    if (num < 0) {
+        output.style.color = 'red';
+    } else {
+        output.style.color = 'black';
+    }
+
+    output.innerHTML = num;
 }
