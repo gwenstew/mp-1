@@ -43,13 +43,32 @@
             <div class="calculator">
                 <h4>Calculator</h4>
                 <!--move calculator.html here; remember to link js-->
-                <li><a href="calculator.html">Javascript Calculator</a></li>
+
+                <div class="calc-input">
+                    <label for="first-num">First Number:</label>
+                    <input type="number" id="first-num">
+                    <label for="second-num">Second Number</label>
+                    <input type="number" id="second-num">
+                </div>
+    
+                <div class="calc-buttons">
+                    <button onclick="addition()">+</button>
+                    <button onclick="subtract()">-</button>
+                    <button onclick="divide()">/</button>
+                    <button onclick="multiply()">*</button>
+                    <button onclick="power()">**</button>
+                    <button onclick="clearC()">clear</button>
+                </div>
+    
+                
+                    <h3 id="output"></h3>
             </div>
 
         </main>
         <footer>
             <p>All rights reserved by Gweneth Stewart <a href="">Credits</a>&#169</p>
         </footer>
+        <script src="calculator.js"></script>
     </body>
 
 </html>
