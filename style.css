@@ -1,0 +1,28 @@
+header {
+    background-color: #4f1c4c;
+    color: #ffc7c7;
+    border-radius: 20px;
+    
+}
+
+body {
+    background-color: #ffc7c7;
+    color: #4f1c4c;
+}
+
+h3 {
+    color: #4f1c4c;
+}
+
+nav {
+    background-color: #dc7646;
+    color: #ffc7c7;
+    border-radius: 20px;
+}
+
+img.profile-img {
+    width:25%;
+    height: auto;
+    border-radius: 20px;
+
+}
