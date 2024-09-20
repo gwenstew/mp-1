@@ -2,6 +2,7 @@
 
 header {
     font-family: Georgia,Times,Times New Roman,serif; 
+    font-size: calc(12px + 0.5vw);
     background-color: #4f1c4c;
     color: #ffc7c7;
     border-radius: 20px; 
@@ -153,6 +154,7 @@ iframe {
 }
 /*Calculator*/
 .calculator {
+    font-size: calc(16px + 0.5vw);
     text-align: center;
     margin-top: 10px;
     padding: 10px;
@@ -161,13 +163,16 @@ iframe {
 }
 
 
+
 .calc-input input{
     font-family: Georgia,Times,Times New Roman,serif; 
     font-weight: bold;
+    font-size: calc(16px + 0.5vw);
     /*font size*/
     color: #4f1c4c;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
     border: 5px solid #4f1c4c;;
     text-align: center;
 }
@@ -175,11 +180,12 @@ iframe {
 .calc-buttons button{
     font-family: Georgia,Times,Times New Roman,serif; 
     font-weight: bold;
+    font-size: calc(16px + 0.5vw);
     /*font size*/
     margin: 5px; 
     padding: 10px;
-    width: 50px;
-    height: 50px; 
+    width: 70px;
+    height: 70px; 
     border-radius: 50%; 
     border: 5px solid #4f1c4c;
     background-color: #ffc7c7;
@@ -189,19 +195,15 @@ iframe {
 }
 
 .output-box {
-    width:50px;
-    height: 50px;
+    width:70px;
+    height: 70px;
     border: 5px solid #4f1c4c;;
     background-color: white;
     margin: 10px auto;
     align-items: center;
+    font-size: calc(16px + 0.5vw);
     
     
-}
-
-.output-box #output {
-    /*font size*/
-    margin: 10px;
 }
 
 /* Media Queries */
@@ -261,8 +263,8 @@ iframe {
     }
     .calc-buttons button, .calc-input input, .output-box{
         /*update font too*/
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
     
 }

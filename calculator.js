@@ -1,7 +1,5 @@
 //javascript functionality for calculator.html
 
-//let firstnum = document.getElementById("first-num").value;
-//let secondnum = document.getElementById("second-num").value;
 
 function addition() {
     //adds the two inputs
@@ -10,7 +8,7 @@ function addition() {
     let result = Number(firstnum) + Number(secondnum);
 
     checkNegative(result);
-    //document.getElementById("output").innerHTML= result;
+   
 }
 
 function subtraction() {
@@ -20,7 +18,7 @@ function subtraction() {
     let result = Number(firstnum) - Number(secondnum);
 
     checkNegative(result);
-    //document.getElementById("output").innerHTML= result;
+    
 }
 
 function divide() {
@@ -30,7 +28,7 @@ function divide() {
     let result = Number(firstnum) / Number(secondnum);
 
     checkNegative(result);
-    //document.getElementById("output").innerHTML= result;
+
 }
 
 function multiply() {
@@ -40,7 +38,6 @@ function multiply() {
     let result = Number(firstnum) * Number(secondnum);
 
     checkNegative(result);
-    //document.getElementById("output").innerHTML= result;
 }
 
 function power() {
