@@ -65,7 +65,7 @@ function checkNegative(num) {
     if (num < 0) {
         output.style.color = 'red';
     } else {
-        output.style.color = 'black';
+        output.style.color = '#4f1c4c';
     }
 
     output.innerHTML = num;
