@@ -1,28 +1,114 @@
+
 header {
     background-color: #4f1c4c;
     color: #ffc7c7;
-    border-radius: 20px;
-    
+    border-radius: 20px; 
+    padding: 20px;
 }
 
 body {
     background-color: #ffc7c7;
     color: #4f1c4c;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
+main {
+    display: inline;
+}
+
+
+/*Text styling*/
+
+p {
+    margin: 10px 0;
+}
+
 
 h3 {
     color: #4f1c4c;
+    text-align: center;
+    margin: 30px 0;
 }
 
+/*Navigation styling*/
 nav {
     background-color: #dc7646;
     color: #ffc7c7;
     border-radius: 20px;
+    margin-right: 20px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+nav ul li a:hover {
+    color: #4f1c4c;
+    background-color: #ffc7c7;
+}
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+     main {
+        width: 100%;
+     }
+}
+
+@media screen and (min-width: 750px){
+    header {
+        text-align: left;
+    }
+    nav {
+        width: 30%;
+        float:left;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        width: 70%;
+    }
+    
+}
+
+/*Smaller Details*/
 img.profile-img {
-    width:25%;
+    max-width:30%;
     height: auto;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 20px;
+    padding: auto;
+    float: left;
 
 }
+
+/*Education*/
