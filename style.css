@@ -1,5 +1,7 @@
 
+
 header {
+    font-family: Georgia,Times,Times New Roman,serif; 
     background-color: #4f1c4c;
     color: #ffc7c7;
     border-radius: 20px; 
@@ -7,6 +9,7 @@ header {
 }
 
 body {
+    font-family: Georgia,Times,Times New Roman,serif; 
     background-color: #ffc7c7;
     color: #4f1c4c;
 
@@ -16,13 +19,21 @@ body {
 }
 
 main {
-    display: inline;
+    height: 100vh;
 }
 
-
+footer {
+    font-family: Georgia,Times,Times New Roman,serif; 
+    background-color: #a45c5c;
+    color: #ffc7c7;
+    position: relative;
+    border-radius: 20px;
+    padding: 5px;
+}
 /*Text styling*/
 
 p {
+    
     margin: 10px 0;
 }
 
@@ -35,6 +46,7 @@ h3 {
 
 /*Navigation styling*/
 nav {
+    font-family: Georgia,Times,Times New Roman,serif; 
     background-color: #dc7646;
     color: #ffc7c7;
     border-radius: 20px;
@@ -71,6 +83,8 @@ img.profile-img {
     float: left;
 
 }
+
+
 
 /*Education*/
 
@@ -181,7 +195,7 @@ iframe {
         flex-direction: column;
     }
     main {
-        width: 70%;
+        width: 90%;
     }
     
 }
