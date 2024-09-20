@@ -124,6 +124,18 @@ iframe {
     height: 50vh;
     
 }
+
+/*Projects*/
+.project-entry {
+    border-left: 5px solid #4f1c4c;
+    padding: 5px;
+    margin-left: 35%;
+}
+
+
+/*Calculator*/
+
+
 /* Media Queries */
 
 /*for screens smaller than 750px*/
@@ -137,11 +149,12 @@ iframe {
     nav ul {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     main {
         width: 100%;
     }
-    .education-entry, .classes, .skills {
+    .education-entry, .classes, .skills, .project-entry {
         margin-left: 0;
         width: 100%;
     }
