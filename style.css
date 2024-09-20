@@ -48,6 +48,7 @@ h3 {
 /*Navigation styling*/
 nav {
     font-family: Georgia,Times,Times New Roman,serif; 
+    font-weight: bold;
     background-color: #dc7646;
     color: #ffc7c7;
     border-radius: 20px;
@@ -159,28 +160,38 @@ iframe {
     background-color:#a45c5c;
 }
 
-.calc-input label {
-    margin: 5px;
-}
 
 .calc-input input{
     font-family: Georgia,Times,Times New Roman,serif; 
     font-weight: bold;
+    /*font size*/
     color: #4f1c4c;
     width: 40px;
     height: 40px;
-    border: 5px solid #a45c5c;
+    border: 5px solid #4f1c4c;;
     text-align: center;
 }
 
-.calc-buttons {
-    margin: 5px;   
+.calc-buttons button{
+    font-family: Georgia,Times,Times New Roman,serif; 
+    font-weight: bold;
+    /*font size*/
+    margin: 5px; 
+    padding: 10px;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    border: 5px solid #4f1c4c;
+    background-color: #ffc7c7;
+
+    text-align: center;
+
 }
 
 .output-box {
-    width:10%;
-    height: 40px;
-    border: 5px solid #a45c5c;
+    width:50px;
+    height: 50px;
+    border: 5px solid #4f1c4c;;
     background-color: white;
     margin: 10px auto;
     align-items: center;
@@ -189,6 +200,7 @@ iframe {
 }
 
 .output-box #output {
+    /*font size*/
     margin: 10px;
 }
 
@@ -225,10 +237,12 @@ iframe {
 @media screen and (min-width: 750px){
     header {
         text-align: left;
+        margin-bottom: 20px;
     }
     nav {
         width: 30%;
         float:left;
+        margin-bottom: 20px;
     }
     nav ul {
         display: flex;
@@ -238,9 +252,17 @@ iframe {
         width: 100%;
     }
     .calculator {
-        
-        margin-top: 20px;
+        padding-top: 10%;
+        padding-bottom: 10%;
         clear: both;
+    }
+    .calc-buttons, .calc-input {
+        margin: 20px;
+    }
+    .calc-buttons button, .calc-input input, .output-box{
+        /*update font too*/
+        width: 70px;
+        height: 70px;
     }
     
 }
