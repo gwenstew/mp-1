@@ -59,12 +59,6 @@ nav ul li a:hover {
 }
 
 
-
-
-
-
-
-
 /*Smaller Details*/
 img.profile-img {
     max-width:30%;
@@ -110,7 +104,26 @@ img.profile-img {
     margin: 5px;
 }
 
+/*References*/
 
+.reference-table table{
+    border-collapse: collapse;
+}
+
+.reference-table th, .reference-table td {
+    border: 2px solid #4f1c4c;
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/*Documents*/ 
+
+iframe {
+    width: 60%;
+    height: 50vh;
+    
+}
 /* Media Queries */
 
 /*for screens smaller than 750px*/
