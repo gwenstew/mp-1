@@ -52,7 +52,7 @@ function power() {
     for (let i = 0; i < secondnum; i++) {
         result *= firstnum;
     }
-    document.getElementById("output").innerHTML= result;
+    checkNegative(result)
 }
 
 function clearC() {
